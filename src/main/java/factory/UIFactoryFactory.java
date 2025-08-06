@@ -1,7 +1,9 @@
-import abstractfactory.AndroidUIFactory;
-import abstractfactory.IOSUIFactory;
-import abstractfactory.UIFactory;
-import abstractfactory.WindowsUIFactory;
+package factory;
+
+import factory.abstractfactory.AndroidUIFactory;
+import factory.abstractfactory.IOSUIFactory;
+import factory.abstractfactory.UIFactory;
+import factory.abstractfactory.WindowsUIFactory;
 
 
 //factory method

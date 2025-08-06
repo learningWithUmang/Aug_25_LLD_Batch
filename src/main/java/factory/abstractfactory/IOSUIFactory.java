@@ -1,9 +1,9 @@
-package abstractfactory;
+package factory.abstractfactory;
 
-import components.button.Button;
-import components.button.IOSButton;
-import components.checkbox.Checkbox;
-import components.checkbox.IOSCheckbox;
+import factory.components.button.Button;
+import factory.components.button.IOSButton;
+import factory.components.checkbox.Checkbox;
+import factory.components.checkbox.IOSCheckbox;
 
 public class IOSUIFactory implements UIFactory{
     @Override

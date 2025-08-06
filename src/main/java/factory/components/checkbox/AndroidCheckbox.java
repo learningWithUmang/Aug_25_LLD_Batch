@@ -1,4 +1,4 @@
-package components.checkbox;
+package factory.components.checkbox;
 
 public class AndroidCheckbox implements Checkbox {
     private String label;

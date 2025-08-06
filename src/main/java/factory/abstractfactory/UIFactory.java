@@ -1,7 +1,7 @@
-package abstractfactory;
+package factory.abstractfactory;
 
-import components.button.Button;
-import components.checkbox.Checkbox;
+import factory.components.button.Button;
+import factory.components.checkbox.Checkbox;
 
 public interface UIFactory {
     /*

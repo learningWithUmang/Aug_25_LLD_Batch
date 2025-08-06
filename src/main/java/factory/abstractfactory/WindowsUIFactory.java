@@ -1,9 +1,9 @@
-package abstractfactory;
+package factory.abstractfactory;
 
-import components.button.Button;
-import components.button.WindowsButton;
-import components.checkbox.Checkbox;
-import components.checkbox.WindowsCheckbox;
+import factory.components.button.Button;
+import factory.components.button.WindowsButton;
+import factory.components.checkbox.Checkbox;
+import factory.components.checkbox.WindowsCheckbox;
 
 public class WindowsUIFactory implements UIFactory{
     @Override

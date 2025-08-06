@@ -1,20 +1,20 @@
-package components.button;
+package factory.components.button;
 
-public class IOSButton implements Button{
+public class AndroidButton implements Button{
     private String label;
 
-    public IOSButton(String label) {
+    public AndroidButton(String label) {
         this.label = label;
     }
 
     @Override
     public void render() {
-        System.out.println("Rendering iOS button with label: " + label);
+        System.out.println("Rendering Android button with label: " + label);
     }
 
     @Override
     public void onClick() {
-        System.out.println("iOS button clicked: " + label);
+        System.out.println("Android button clicked: " + label);
     }
 
     @Override

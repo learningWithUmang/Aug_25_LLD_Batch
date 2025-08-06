@@ -1,4 +1,4 @@
-package components.checkbox;
+package factory.components.checkbox;
 
 public interface Checkbox {
     void render(); // Method to render the checkbox

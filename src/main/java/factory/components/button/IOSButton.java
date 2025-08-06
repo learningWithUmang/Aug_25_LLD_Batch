@@ -1,20 +1,20 @@
-package components.button;
+package factory.components.button;
 
-public class WindowsButton implements Button{
+public class IOSButton implements Button{
     private String label;
 
-    public WindowsButton(String label) {
+    public IOSButton(String label) {
         this.label = label;
     }
 
     @Override
     public void render() {
-        System.out.println("Rendering Windows button with label: " + label);
+        System.out.println("Rendering iOS button with label: " + label);
     }
 
     @Override
     public void onClick() {
-        System.out.println("Windows button clicked: " + label);
+        System.out.println("iOS button clicked: " + label);
     }
 
     @Override

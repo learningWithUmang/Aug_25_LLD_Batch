@@ -1,6 +1,8 @@
-import abstractfactory.UIFactory;
-import components.button.Button;
-import components.checkbox.Checkbox;
+package factory;
+
+import factory.abstractfactory.UIFactory;
+import factory.components.button.Button;
+import factory.components.checkbox.Checkbox;
 
 public class Client {
     public static void main(String[] args) {

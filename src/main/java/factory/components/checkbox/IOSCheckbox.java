@@ -1,25 +1,25 @@
-package components.checkbox;
+package factory.components.checkbox;
 
-public class WindowsCheckbox implements Checkbox{
+public class IOSCheckbox implements Checkbox{
     private String label;
 
-    public WindowsCheckbox(String label) {
+    public IOSCheckbox(String label) {
         this.label = label;
     }
 
     @Override
     public void render() {
-        System.out.println("Rendering Windows checkbox with label: " + label);
+        System.out.println("Rendering iOS checkbox with label: " + label);
     }
 
     @Override
     public void onCheck() {
-        System.out.println("Windows checkbox checked: " + label);
+        System.out.println("iOS checkbox checked: " + label);
     }
 
     @Override
     public void onUncheck() {
-        System.out.println("Windows checkbox unchecked: " + label);
+        System.out.println("iOS checkbox unchecked: " + label);
     }
 
     @Override

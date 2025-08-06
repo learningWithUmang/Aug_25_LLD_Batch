@@ -1,4 +1,4 @@
-package components.button;
+package factory.components.button;
 
 public interface Button {
     void render(); // Method to render the button

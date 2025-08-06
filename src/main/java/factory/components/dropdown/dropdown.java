@@ -1,4 +1,4 @@
-package components.dropdown;
+package factory.components.dropdown;
 
 public interface dropdown {
     void render(); // Method to render the dropdown

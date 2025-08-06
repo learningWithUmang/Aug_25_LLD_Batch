@@ -1,10 +1,10 @@
-package abstractfactory;
+package factory.abstractfactory;
 
 
-import components.button.AndroidButton;
-import components.button.Button;
-import components.checkbox.AndroidCheckbox;
-import components.checkbox.Checkbox;
+import factory.components.button.AndroidButton;
+import factory.components.button.Button;
+import factory.components.checkbox.AndroidCheckbox;
+import factory.components.checkbox.Checkbox;
 
 public class AndroidUIFactory implements UIFactory {
     public Button createButton(String label) {
